@@ -50,7 +50,7 @@ static void print_pcs(uint32_t *vp)
 
 	printf("CTEN: 0x%08x\n", v3d_read(vp, V3D_CTEN));
 	for (i = 0; i < NUM_PCS; i ++)
-		printf("%2d: %2d %10d\n", i, v3d_read(vp, pctrs[i]), v3d_read(vp, pctr[i]));
+		printf("%2d: %2d %10u\n", i, v3d_read(vp, pctrs[i]), v3d_read(vp, pctr[i]));
 }
 
 int main(int argc, char *argv[])
