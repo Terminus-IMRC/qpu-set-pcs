@@ -1,5 +1,5 @@
-CFLAGS := -I/home/pi/.local/local/include -O2 -Wall -Wextra
-LDFLAGS := -L/home/pi/.local/local/lib -lmailbox -lvc4v3d
+CFLAGS := -pipe -g -O2 -W -Wall -Wextra
+LDFLAGS := -lvc4regmap -lbcm_host -L/opt/vc/lib
 
 all: qpu-set-pcs
 
