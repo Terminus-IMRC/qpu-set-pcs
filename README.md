@@ -7,6 +7,8 @@
 
 You need [libvc4regmap](https://github.com/Terminus-IMRC/libvc4regmap).
 
+You can use [qpuinfo](https://github.com/Terminus-IMRC/qpuinfo) to
+enable/disable QPU.
 
 ## Building
 
